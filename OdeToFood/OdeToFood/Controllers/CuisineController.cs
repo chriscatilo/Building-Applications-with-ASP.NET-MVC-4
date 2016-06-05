@@ -14,8 +14,8 @@ namespace OdeToFood.Controllers
         {
             throw new Exception("Something terrible has happened");
 
-            var message = Server.HtmlEncode(name);
-            return Content(message);
+            //var message = Server.HtmlEncode(name);
+            //return Content(message);
         }
 
     }
