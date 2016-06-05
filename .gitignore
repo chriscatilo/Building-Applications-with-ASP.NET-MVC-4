@@ -5,7 +5,5 @@
 
 *.suo
 *.user
-/OdeToFood/OdeToFood/bin
-/OdeToFood/OdeToFood/bin/Debug
-/OdeToFood/OdeToFood/obj
-/OdeToFood/OdeToFood/obj/Debug
+/OdeToFood/*/bin
+/OdeToFood/*/obj
