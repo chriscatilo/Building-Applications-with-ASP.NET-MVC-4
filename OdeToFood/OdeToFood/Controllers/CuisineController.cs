@@ -1,21 +1,22 @@
-﻿using System.Web.Mvc;
+﻿using OdeToFood.Filters;
+using System;
+using System.Web.Mvc;
 
 namespace OdeToFood.Controllers
 {
+    //[Authorize(Role = "Admin"] // redirect the user to the login page if not authenticated and have role of Admin
+    [Log]
     public class CuisineController : Controller
     {
-        [HttpPost] // can only be invoked on a POST request
+
+        //[Authorize] // filter can be placed in the controller or controller action
         public ActionResult Search(string name = "french")
         {
-            var message = Server.HtmlEncode(name);
+            throw new Exception("Something terrible has happened");
 
+            var message = Server.HtmlEncode(name);
             return Content(message);
         }
 
-        [HttpGet] // can only be invoked on a GET request
-        public ActionResult Search()
-        {
-            return Content("Search!");
-        }
     }
 }
