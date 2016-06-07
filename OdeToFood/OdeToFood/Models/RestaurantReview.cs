@@ -13,8 +13,7 @@ namespace OdeToFood.Models
         [Range(1,10)]
         [Required]
         public int Rating { get; set; }
-
-        [Required]
+        
         [StringLength(1024)]
         public string Body { get; set; }
 
