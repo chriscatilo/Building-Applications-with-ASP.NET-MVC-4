@@ -182,9 +182,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201210280255140_InitialCreate.cs" />
-    <Compile Include="Migrations\201210280255140_InitialCreate.Designer.cs">
-      <DependentUpon>201210280255140_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\201210161548264_InitialCreate.cs" />
+    <Compile Include="Migrations\201210161548264_InitialCreate.Designer.cs">
+      <DependentUpon>201210161548264_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AboutModel.cs" />
@@ -260,9 +260,6 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <None Include="Properties\PublishProfiles\odetofood - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\odetofood - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\release.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -340,8 +337,8 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201210280255140_InitialCreate.resx">
-      <DependentUpon>201210280255140_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201210161548264_InitialCreate.resx">
+      <DependentUpon>201210161548264_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Home\Resources.fr.resx" />
     <EmbeddedResource Include="Views\Home\Resources.resx">
